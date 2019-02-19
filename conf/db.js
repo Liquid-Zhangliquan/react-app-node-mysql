@@ -2,10 +2,10 @@ var mysql = require('mysql');
 
 // 创建 mysql 连接池资源
 var pool = mysql.createPool({
-    host: "39.108.100.163",
-    user: "root",
-    password: "qwer",
-    database: "thematic"
+    host: "****",
+    user: "****",
+    password: "****",
+    database: "****"
 });
 
 exports.query = function (sql, arr, callback) {
